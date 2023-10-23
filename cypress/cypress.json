@@ -1,0 +1,14 @@
+{
+  "configuration":{
+    "specOrder":[
+      "cypress/e2e/UI/registration/*.cy.js",
+      "cypress/e2e/UI/payment/*.cy.js",
+      "cypress/e2e/UI/enrollment/*.cy.js",
+      "cypress/e2e/UI/profile/*.cy.js"
+    ],
+    "pageLoadTimeout": 60000,
+    "browsers": "chrome"
+  }
+    
+
+  }

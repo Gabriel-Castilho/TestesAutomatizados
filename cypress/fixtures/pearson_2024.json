@@ -1,0 +1,104 @@
+[
+  {
+    "product_name": "Bear Care - 2023",
+    "sku": "8123000000418",
+    "code": "MBET23-Curso",
+    "price": 2710
+  },
+  {
+    "product_name": "Toddler - 2023",
+    "sku": "8123000000213",
+    "code": "MBT23-Curso",
+    "price": 2710
+  },
+  {
+    "product_name": "Nursery - 2023",
+    "sku": "8123000000633",
+    "code": "MBN23-Curso",
+    "price": 2911
+  },
+  {
+    "product_name": "Junior Kindergarten - 2023",
+    "sku": "8123000000749",
+    "code": "MBJK23-Curso",
+    "price": 2982
+  },
+  {
+    "product_name": "Senior Kindergarten - 2023",
+    "sku": "8123000000855",
+    "code": "MBSK23-Curso",
+    "price": 2982
+  },
+  {
+    "product_name": "Year 01 - 2023",
+    "sku": "8123000009117",
+    "code": "MB1Y23-Curso",
+    "price": 3167
+  },
+  {
+    "product_name": "Year 02 - 2023",
+    "sku": "8123000099224",
+    "code": "MB2Y23-Curso",
+    "price": 3167
+  },
+  {
+    "product_name": "Year 03 - 2023",
+    "sku": "8123000011332",
+    "code": "MB3Y23-Curso",
+    "price": 3167
+  },
+  {
+    "product_name": "Year 04 - 2023",
+    "sku": "8123000012445",
+    "code": "MB4Y23-Curso",
+    "price": 3167
+  },
+  {
+    "product_name": "Year 05 - 2023",
+    "sku": "8123000012551",
+    "code": "MB5Y23-Curso",
+    "price": 3167
+  },
+  {
+    "product_name": "Year 06 - 2023",
+    "sku": "8123000015668",
+    "code": "MB6Y23-Curso",
+    "price": 3243
+  },
+  {
+    "product_name": "Year 07 - 2023",
+    "sku": "8123000016771",
+    "code": "MB7Y23-Curso",
+    "price": 3243
+  },
+  {
+    "product_name": "Year 08 - 2023",
+    "sku": "8123000000886",
+    "code": "MB8Y23-Curso",
+    "price": 3243
+  },
+  {
+    "product_name": "Year 09 - 2023",
+    "sku": "8123000000992",
+    "code": "MB9Y23-Curso",
+    "price": 3243
+  },
+  {
+    "product_name": "Year 10 - 2023",
+    "sku": "8123000000107",
+    "code": "MB10Y23-Curso",
+    "price": 1004.04
+  },
+  {
+    "product_name": "Year 11 - 2023",
+    "sku": "8123000000107",
+    "code": "MB11Y23-Curso",
+    "price": 3506.06
+  },
+  {
+    "product_name": "Year 12 - 2023",
+    "sku": "8123000002255",
+    "code": "MB12Y23-Curso",
+    "price": 1000
+  }
+]

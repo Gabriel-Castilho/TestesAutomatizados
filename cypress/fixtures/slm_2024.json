@@ -1,0 +1,149 @@
+[
+  {
+    "product_name": "SLM+ Bear Care 2024",
+    "sku": "8124000000210",
+    "code": "MBBC24-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "SLM+ Bear Care 2024",
+    "sku": "8124000000210-bundle",
+    "code": "MBBC24",
+    "type":"bundle",
+    "price": 3000
+  },
+  {
+    "product_name": "SLM+ Toddler 2024",
+    "sku": "8124000000319",
+    "code": "MBT24-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "SLM+ Toddler 2024",
+    "sku": "8124000000319-bundle",
+    "code": "MBT24",
+    "type":"bundle",
+    "price": 3000
+  },
+  {
+    "product_name": "SLM+ Nursery 2024",
+    "sku": "8124000000425",
+    "code": "MBN24-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "SLM+ Nursery 2024",
+    "sku": "8124000000425-bundle",
+    "code": "MBN24",
+    "type":"bundle",
+    "price": 3000
+  },
+  {
+    "product_name": "SLM+ Junior Kindergarten 2024",
+    "sku": "8124000005123",
+    "code": "MBJK24-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "SLM+ Junior Kindergarten 2024",
+    "sku": "8124000005123-bundle",
+    "code": "MBJK24",
+    "type":"bundle",
+    "price": 3000
+  },
+  {
+    "product_name": "Senior Kindergarten - 2023",
+    "sku": "8123000000855",
+    "code": "MBSK23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 01 - 2023",
+    "sku": "8123000009117",
+    "code": "MB1Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 02 - 2023",
+    "sku": "8123000099224",
+    "code": "MB2Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 03 - 2023",
+    "sku": "8123000011332",
+    "code": "MB3Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 04 - 2023",
+    "sku": "8123000012445",
+    "code": "MB4Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 05 - 2023",
+    "sku": "8123000012551",
+    "code": "MB5Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 06 - 2023",
+    "sku": "8123000015668",
+    "code": "MB6Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 07 - 2023",
+    "sku": "8123000016771",
+    "code": "MB7Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 08 - 2023",
+    "sku": "8123000000886",
+    "code": "MB8Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 09 - 2023",
+    "sku": "8123000000992",
+    "code": "MB9Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 10 - 2023",
+    "sku": "8123000000107",
+    "code": "MB10Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 11 - 2023",
+    "sku": "8123000000107",
+    "code": "MB11Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  },
+  {
+    "product_name": "Year 12 - 2023",
+    "sku": "8123000002255",
+    "code": "MB12Y23-Curso",
+    "type":"simple",
+    "price": 3000
+  }
+]
