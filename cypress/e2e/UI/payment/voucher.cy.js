@@ -25,7 +25,6 @@ describe('Pagamento com cupom', () => {
             cy.Login('Senha123')
             Buy.goToCart();
             Buy.goToCheckoutRemovingStudent();
-            
             Buy.goToCheckout();
             Buy.acceptModalPearsonOptional();
             Buy.insertVoucher("cypress2024");

@@ -2,7 +2,6 @@ const cypress = require('cypress');
 
 (async () => {
   try {
-    // Execute os testes na ordem desejada
     process.env.CYPRESS_BROWSER = 'chrome';
     const testFiles = [
      'cypress/e2e/UI/LEX/confirm_Registration/*.cy.js',
