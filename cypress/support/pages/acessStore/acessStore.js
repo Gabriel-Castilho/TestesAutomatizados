@@ -2,7 +2,7 @@ import '../../ui-commands'
 
 class AcessStore {
 
-    acessStore(cpf) {
+    acessStore(cpf) { 
 
         cy.visit('customer/account/index/')
         cy.get('.modal-footer > :nth-child(2)').click();
@@ -29,9 +29,13 @@ class AcessStore {
         cy.get('.user-portal-page__section > lex-card > .cards-container > .cards-container__anchor > .cards-container__card').click();
 
         cy.origin('https://mcstaging.maplebearstore.com.br', () => {
-            cy.visit('https://mcstaging.maplebearstore.com.br/authentication/login/cache');
-           // cy.get('[id="taxvat"]').type('86162615081');
+            cy.visit('https://mcstaging.maplebearstore.com.br/customer/account/index/');
+        //cy.visit('https://mcstaging.maplebearstore.com.br/authentication/login/cache');
+           cy.get('[id="taxvat"]').type('86162615081');
+           cy.get('#identification-form > .fieldset > .actions-toolbar > div.primary > #send2').click();
+           cy.wait(15000)
             cy.visit('https://mcstaging.maplebearstore.com.br/dependents/');
+         //cy.get('[class="dependent-image"]').click();
             cy.get(':nth-child(1) > .content > .can-buy').should('contain', 'Material disponível para compra');
             cy.get('[class="cant-buy"]').should('have.length', 1);
         });

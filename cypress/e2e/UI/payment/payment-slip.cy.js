@@ -10,8 +10,9 @@ describe('Pagamento com boleto', () => {
             AcessStore.acessStore(cpf);
             cy.Login('Senha123')
             Buy.goToSelectYear();
-            Buy.selectCurrentYear();
-           // Buy.goToCheckoutRemovingStudent();
+            //Buy.selectCurrentYear();
+           //Buy.goToCheckoutRemovingStudent(1)
+           //Buy.goToCheckoutRemovingStudent(0)
             Buy.goToCheckout();
             Buy.payWithPaymentSlip();
             cy.wait(5000)

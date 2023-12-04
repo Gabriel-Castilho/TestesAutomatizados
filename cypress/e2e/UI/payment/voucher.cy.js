@@ -13,20 +13,19 @@ describe('Pagamento com cupom', () => {
            // Buy.goToCheckoutRemovingStudent();
           
            Buy.goToCheckout();
-           Buy.acceptModalPearsonOptional();
+          // Buy.acceptModalPearsonOptional();
             Buy.insertVoucher("cypress2024");
             cy.get('.message > div').should('contain','O cupom só pode ser aplicado com um único SLM no carrinho');
         })
     })
 
-    it('Pagamento com cupom 100%', () => {
+    it.only('Pagamento com cupom 100%', () => {
         cy.getCPF().then((cpf) => {
             AcessStore.acessStore(cpf);
             cy.Login('Senha123')
             Buy.goToCart();
-            Buy.goToCheckoutRemovingStudent();
+            Buy.goToCheckoutRemovingStudent(1);
             Buy.goToCheckout();
-            Buy.acceptModalPearsonOptional();
             Buy.insertVoucher("cypress2024");
             Buy.payWithVoucher();
             cy.get('strong > span').should('contain','Pedido concluído!');

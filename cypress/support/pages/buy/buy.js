@@ -24,10 +24,15 @@ class Buy{
         cy.get('#wrapper > :nth-child(1)').click();
         cy.get('.action-button').click();
     }
-    goToCheckoutRemovingStudent(){
-        cy.get('.dependent-checked-default.checkbox-dependent.checkbox-product').eq(1).click({force:true});;
+    goToCheckoutRemovingStudent(posStudent){
+      //  cy.get('data-cy="0"').click({force:true});
+        cy.get('.dependent-checked-default.checkbox-dependent.checkbox-product').eq(posStudent).click({force:true});;
+        
     }
 
+    modalConfirmOptionalProducts(){
+        cy.get('.modal-optional-action-button-pay').click();
+    }
     selectNexYear(){
         cy.get('#wrapper > :nth-child(2)').click();
         cy.get('.action-button').click();

@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run":"node run-tests.js --chrome",
-    "open":"npx cypres open"
+    "run": "node run-tests.js --chrome",
+    "open": "npx cypres open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.12.0",
+    "cypress": "^13.5.0",
     "faker": "^6.6.6",
     "gerador-validador-cpf": "^5.0.2",
     "joi": "^17.9.2"

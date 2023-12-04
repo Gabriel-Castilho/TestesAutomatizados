@@ -8,7 +8,7 @@ import AcessStore from '../../../../support/pages/acessStore/acessStore'
 describe('Acesso a loja e verifica cadastro', () => {
 
     it('Acesso LEX', () => {
-            AcessStore.acessStoreLEX('mijabi5929@tutoreve.com','Senha123@');
+            AcessStore.acessStoreLEX('teban11752@gearstag.com','Senha123@');
             AcessStore.acessStoreByLex();
            // cy.get(':nth-child(1) > .content > .can-buy').should('contain', 'Material disponível para compra');
             //cy.get('[class="cant-buy"]').should('have.length', 1);
